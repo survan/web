@@ -20,16 +20,25 @@ div#inicio {
     width: 100%;
     text-align: center;
 }
-div#inicio img {
+div#inicio img#logo {
+    width: 200px;
+}
+div#inicio img#nombre {
     width: 300px;
 }
 @media (min-width: 1150px){
-	div#inicio img {
+	div#inicio img#logo {
+	    width: 250px;
+	}
+	div#inicio img#nombre {
 	    width: 400px;
 	}
 }
 @media (max-width: 305px){
-	div#inicio img {
+	div#inicio img#logo {
+	    width: 52%;
+	}
+	div#inicio img#nombre {
 	    width: 90%;
 	}
 }

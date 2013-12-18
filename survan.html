@@ -9,11 +9,21 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#logo').animate({'margin-left':'-600px'},1500);
+	$('#logo').animate({'margin-left':'600px'},1500);
+	$('#logo').animate({'margin-right':'600px'},1500);
+});
+</script>
+
 <body>
 	<div id="contenedor">
 		<div id="inicio">
-			<img src="imagenes/logo.png" alt="Survan">
-			<img src="imagenes/nombre.png" alt="Agile Survan, Software Time Machine">
+			<img id="logo" src="imagenes/logo.png" alt="Survan"><br>
+			<img id="nombre" src="imagenes/nombre.png" alt="Agile Survan, Software Time Machine">
 		</div>
 	</div>
 </body>
