@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+html {
+	background: #000 url(imagenes/fondo.jpg) no-repeat top center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.imagenes/fondo.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/fondo.jpg', sizingMethod='scale')";
+}
+div#contenedor {
+	width: 100%;
+}
+div#inicio {
+    width: 100%;
+    text-align: center;
+}
+div#inicio img {
+    width: 300px;
+}
+@media (min-width: 1150px){
+	div#inicio img {
+	    width: 400px;
+	}
+}
+@media (max-width: 305px){
+	div#inicio img {
+	    width: 90%;
+	}
+}
