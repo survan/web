@@ -5,13 +5,13 @@ html, body {
 	color: #fff;
 }
 html {
-	background: #000 url(fondo.jpg) no-repeat top center;
+	background: #000 url(imagenes/fondo.jpg) no-repeat top center;
 	background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-webkit-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.imagen_de_fondo.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagen_de_fondo.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.imagenes/fondo.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagenes/fondo.jpg', sizingMethod='scale')";
 }
 div#contenedor {
 	width: 100%;
