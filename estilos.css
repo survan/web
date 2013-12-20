@@ -175,3 +175,16 @@ div#arranque img#nombre {
 	    width: 90%;
 	}
 }
+#contenido {
+	background: transparent url(imagenes/planetas/sol.png) no-repeat; 
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	position: absolute;
+	bottom: 0;
+	min-height: 40em;
+	height: 40em;
+	width: 100%;
+	z-index: -1;
+}
