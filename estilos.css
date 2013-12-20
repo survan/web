@@ -22,6 +22,9 @@ div#contenedor {
 	width: 100%;
 	text-align: center;
 }
+div#pagina {
+	display: none;
+}
 nav {
 	width: 100%;
 	display: block;
@@ -88,6 +91,9 @@ nav li:hover {
 nav li a { 
 	text-decoration: none;
 }
+nav li:active { 
+	background: url(imagenes/logo.png);
+}
 nav li#nosotros {
 	background: url(imagenes/planetas/venus.png);
 	background-size: 100% 100%;
@@ -96,7 +102,7 @@ nav li#nosotros {
 	-o-background-size: 100% 100%;
 }
 nav li#nosotros a {
-	color: #775931;
+	color: #3A250A;
 	text-shadow: 0 0 3px #fff;
 }
 nav li#servicios {
@@ -107,7 +113,7 @@ nav li#servicios {
 	-o-background-size: 100% 100%;
 }
 nav li#servicios a {
-	color: #775931;
+	color: #3A250A;
 	text-shadow: 0 0 3px #fff;
 }
 nav li#inicio {
@@ -129,7 +135,7 @@ nav li#portafolio {
 	-o-background-size: 100% 100%;
 }
 nav li#portafolio a {
-	color: #775931;
+	color: #3A250A;
 	text-shadow: 0 0 3px #fff;
 }
 nav li#contactenos {
@@ -140,7 +146,7 @@ nav li#contactenos {
 	-o-background-size: 100% 100%;
 }
 nav li#contactenos a {
-	color: #775931;
+	color: #3A250A;
 	text-shadow: 0 0 3px #fff;
 }
 div#arranque {

@@ -12,11 +12,19 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
 <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-<script>var angle = 0;
-setInterval(function(){
-      angle+=3;
-     $("#logo").rotate(angle);
-},50);
+<script>
+	var angle = 0;
+	setInterval(function(){
+	      angle+=3;
+	     $("#logo").rotate(angle);
+	},50);
+	$(function(){
+		$("#logo").delay(500).fadeOut(800);
+		$("#nombre").delay(500).fadeOut(800);
+		$("#pagina").hide();
+		$("#pagina").delay(1300).fadeIn(400);
+		
+	});
 </script>
 
 <body>
@@ -25,17 +33,19 @@ setInterval(function(){
 			<img id="logo" src="imagenes/logo.png" alt="Survan"><br>
 			<img id="nombre" src="imagenes/nombre.png" alt="Agile Survan, Software Time Machine">
 		</div>
-		<header>
-			<nav>
-				<ul>
-					<li id="nosotros"><a href="nosotros.html">Nosotros</a></li>
-					<li id="servicios"><a href="servicios.html">Servicios</a></li>
-					<li id="inicio"><a href="inicio.html">Inicio</a></li>
-					<li id="portafolio"><a href="portafolio.html">Portafolio</a></li>
-					<li id="contactenos"><a href="contactenos.php">Contactenos</a></li>
-				</ul>
-			</nav>
-		</header>
+		<div id="pagina">
+			<header>
+				<nav>
+					<ul>
+						<li id="nosotros"><a href="nosotros.html">Nosotros</a></li>
+						<li id="servicios"><a href="servicios.html">Servicios</a></li>
+						<li id="inicio"><a href="index.html">Inicio</a></li>
+						<li id="portafolio"><a href="portafolio.html">Portafolio</a></li>
+						<li id="contactenos"><a href="contactenos.php">Contactenos</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
 	</div>
 </body>
 </html>
