@@ -10,11 +10,13 @@
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	$('#logo').animate({'margin-left':'-100px'},1500);
-});
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+<script>var angle = 0;
+setInterval(function(){
+      angle+=3;
+     $("#logo").rotate(angle);
+},50);
 </script>
 
 <body>
